@@ -15,7 +15,7 @@
     <div th:replace="fragment/header.html :: header"></div>
     
     <div class="container">
-        <h2 class="text-primary">Hello Rruben your notes:</h1>
+        <h2 class="text-primary">Hello there your notes:</h1>
         <div class="row">
             <div th:each="note : ${notes}" class="col-sm">
                 <div th:replace="fragment/note.html :: note(title=${note.title},content=${note.content},id=${note.id})"></div>
