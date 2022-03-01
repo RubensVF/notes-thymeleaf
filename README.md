@@ -24,5 +24,5 @@ Con docker despues de genear el jar, construir la imagen de docker con.
 
 `docker build -t notas .`
 
-`Docker run notas -p 8080:8080`
+`docker run notas -p 8080:8080`
 
