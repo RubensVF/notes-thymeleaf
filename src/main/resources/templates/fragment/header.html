@@ -13,7 +13,12 @@
             width="30" height="30" class="d-inline-block align-top" alt="">
           Notes
         </a>
-        <a href="/noteform" class="btn btn-secondary">New Note</a>
+        <div class="d-inline-flex p-2">
+        <a href="/noteform" class="btn btn-secondary m-1">New Note</a>
+        <form th:action="@{/logout}" method="post">
+          <input  class="btn btn-primary m-1" type="submit" value="logout">
+      </form>
+    </div>
       </div>
     </nav>
   </div>
